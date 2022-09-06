@@ -18,3 +18,11 @@ set history=1000    " Get previous commands with up arrow
 " Abbreviation could be used for code generation
 " Just an example, I might never this one
 iabbrev vimforloop for (int i = 0; i < x.size(); i++) {}
+
+" Functions to combine operations
+" call with ':call Func()'
+function! SchemeMod()
+    set softtabstop=2
+    set tabstop=2
+    set shiftwidth=2
+endfunction
