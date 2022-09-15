@@ -26,3 +26,7 @@ function! SchemeMod()
     set tabstop=2
     set shiftwidth=2
 endfunction
+
+function! MakefileMod()
+    set noexpandtab
+endfunction
