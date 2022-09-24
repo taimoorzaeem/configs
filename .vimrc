@@ -1,10 +1,11 @@
-" Some vim commands that I often forget what they do
+" Some vim commands to remember
 
 set encoding=utf-8 " For char encodings
 
-syntax on " Turn on syntax highlighting
+syntax on           " Turn on syntax highlighting
 
-set number          " Set line numbers
+set number          " Display line numbers
+set relativenumber  " Display line no relative to current line no
 
 set softtabstop=4   " Allows going back 4 spaces with expand tab 
 set tabstop=4       " A tab is 4 spaces
@@ -21,7 +22,7 @@ iabbrev vimforloop for (int i = 0; i < x.size(); i++) {}
 
 " Functions to combine operations
 " call with ':call Func()'
-function! SchemeMod()
+function! TwoSpaces()
     set softtabstop=2
     set tabstop=2
     set shiftwidth=2
