@@ -20,6 +20,15 @@ set history=1000    " Get previous commands with up arrow
 " Just an example, I might never this one
 iabbrev vimforloop for (int i = 0; i < x.size(); i++) {}
 
+" Using autocmd to change syntax file
+" to override default syntax file
+
+" This assume a coq.vim file in /usr/share/vim/vim81/syntax/
+augroup coq_ft
+  au!
+  autocmd BufNewFile,BufRead *.v   set syntax=coq
+augroup END
+
 " Functions to combine operations
 " call with ':call Func()'
 function! TwoSpaces()
