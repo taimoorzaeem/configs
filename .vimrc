@@ -1,6 +1,7 @@
 " Some vim commands to remember
 
-set encoding=utf-8 " For char encodings
+set title           " Display filename on top
+set encoding=utf-8  " For char encodings
 
 syntax on           " Turn on syntax highlighting
 
@@ -40,3 +41,6 @@ endfunction
 function! MakefileMod()
     set noexpandtab
 endfunction
+
+" Define digraphs for unicode chars
+dig T- 8866
