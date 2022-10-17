@@ -15,7 +15,7 @@ set autoindent      " Return back to same indentation
 set expandtab       " Expand the tab character to 4 spaces
 
 set history=1000    " Get previous commands with up arrow
-
+set list            " Use this setting to identify tabs and newlines
 
 " Abbreviation could be used for code generation
 " Just an example, I might never this one
@@ -44,3 +44,8 @@ endfunction
 
 " Define digraphs for unicode chars
 dig T- 8866
+
+" Type in shell: setxkbmap -option caps:swapescape
+" to swap capslock with escape key or use 
+" setxkbmap -option caps:escape to map both to escape
+" To revert: setxkbmap -option
