@@ -1,21 +1,20 @@
 " Some vim commands to remember
 
-set title           " Display filename on top
-set encoding=utf-8  " For char encodings
 
-syntax on           " Turn on syntax highlighting
+syntax on               " Turn on syntax highlighting
 
-set number          " Display line numbers
-set relativenumber  " Display line no relative to current line no
-
-set softtabstop=4   " Allows going back 4 spaces with expand tab 
-set tabstop=4       " A tab is 4 spaces
-set shiftwidth=4    " Go 4 spaces in the file on tab press
-set autoindent      " Return back to same indentation
-set expandtab       " Expand the tab character to 4 spaces
-
-set history=1000    " Get previous commands with up arrow
-set list            " Use this setting to identify tabs and newlines
+set autoindent          " Return back to same indentation
+set encoding=utf-8      " For char encodings
+set expandtab           " Expand the tab character to 4 spaces
+set history=1000        " Get previous commands with up arrow
+set list                " Use this setting to identify tabs and newlines
+set number              " Display line numbers
+set relativenumber      " Display line no relative to current line no
+set shiftwidth=4        " Go 4 spaces in the file on tab press
+set softtabstop=4       " Allows going back 4 spaces with expand tab 
+set tabstop=4           " A tab is 4 spaces
+set title               " Display filename on top
+set whichwrap+=<,>,h,l  " Goto next line when press l
 
 " Abbreviation could be used for code generation
 " Just an example, I might never this one
