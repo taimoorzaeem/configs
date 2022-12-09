@@ -8,10 +8,13 @@ set encoding=utf-8      " For char encodings
 set expandtab           " Expand the tab character to 4 spaces
 set history=1000        " Get previous commands with up arrow
 set list                " Use this setting to identify tabs and newlines
+set noswapfile          " Disable swap file
 set number              " Display line numbers
 set relativenumber      " Display line no relative to current line no
+set shell               " Set custom shell
 set shiftwidth=4        " Go 4 spaces in the file on tab press
 set softtabstop=4       " Allows going back 4 spaces with expand tab 
+set spell               " Spell checker
 set tabstop=4           " A tab is 4 spaces
 set title               " Display filename on top
 set whichwrap+=<,>,h,l  " Goto next line when press l
