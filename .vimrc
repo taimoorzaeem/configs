@@ -51,3 +51,8 @@ dig T- 8866
 " to swap capslock with escape key or use 
 " setxkbmap -option caps:escape to map both to escape
 " To revert: setxkbmap -option
+
+" Mappings
+
+" Wrap the text with round braces
+vnoremap <F5> c()<Esc>P
