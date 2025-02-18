@@ -56,3 +56,8 @@ dig T- 8866
 
 " Wrap the text with round braces
 vnoremap <F5> c()<Esc>P
+
+" Notes
+"
+" Use . to repeat last non-NORMAL mode action
+" Use "+y, "+p, "+x for yanking, pasting and cutting on using system clipboard
