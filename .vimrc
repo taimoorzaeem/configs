@@ -53,7 +53,11 @@ dig T- 8866
 " To revert: setxkbmap -option
 
 " Mappings
+" ========
 
+" Undo with \u and disable u
+nnoremap <leader>u u
+nnoremap u <Nop>
 " Wrap the text with round braces
 vnoremap <F5> c()<Esc>P
 
