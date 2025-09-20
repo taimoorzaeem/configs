@@ -10,7 +10,7 @@
 make_alias_tz() { # tz is my intials so less chances to conflict
     local name="$1"
     local command="$2"
-    alias "$name=echo '⚠️  Using alias: $name' >&2; echo '' >&2; $command"
+    alias "$name=echo '⚠️  Using alias to command: $command' >&2; echo '' >&2; $command"
 }
 
 make_alias_tz rm-trail-ws "sed -i 's/[[:space:]]*$//'"
