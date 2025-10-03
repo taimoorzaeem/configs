@@ -60,6 +60,11 @@ nnoremap <leader>u u
 nnoremap u <Nop>
 " Wrap the text with round braces
 vnoremap <F5> c()<Esc>P
+" Escape with jk
+inoremap jk <Esc>
+" Move 10 lines up or down
+nnoremap <C-j> 10j
+nnoremap <C-k> 10k
 
 " Notes
 "
