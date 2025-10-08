@@ -19,6 +19,8 @@ set tabstop=4           " A tab is 4 spaces
 set title               " Display filename on top
 set whichwrap+=<,>,h,l  " Goto next line when press l
 
+set noeol binary        " Don't add \n at the end of last line when exiting
+
 " Abbreviation could be used for code generation
 " Just an example, I might never this one
 iabbrev vimforloop for (int i = 0; i < x.size(); i++) {}
