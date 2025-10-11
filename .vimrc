@@ -1,6 +1,5 @@
 " Some vim commands to remember
 
-
 syntax on               " Turn on syntax highlighting
 
 set autoindent          " Return back to same indentation
@@ -20,6 +19,8 @@ set title               " Display filename on top
 set whichwrap+=<,>,h,l  " Goto next line when press l
 
 set noeol binary        " Don't add \n at the end of last line when exiting
+
+set clipboard=unnamedplus  " Use systen keyboard on y and p, requires vim-gtk3
 
 " Abbreviation could be used for code generation
 " Just an example, I might never this one
@@ -70,5 +71,6 @@ nnoremap <C-k> 10k
 
 " Notes
 "
-" Use . to repeat last non-NORMAL mode action
-" Use "+y, "+p, "+x for yanking, pasting and cutting on using system clipboard
+" - Use . to repeat last non-NORMAL mode action
+" - Use "+y, "+p, "+x for yanking, pasting and cutting on using system
+"		clipboard. This requires vim-gtk3.
