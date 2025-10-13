@@ -1,0 +1,15 @@
+[user]
+	name = Taimoor Zaeem
+	email = taimoorzaeem@gmail.com
+	signingkey = # signing key for verified commits
+[core]
+	editor = vim
+[credential]
+	helper = store
+[commit]
+	gpgsign = true # sign commit using the signing key
+[sendemail]
+	smtpserver = smtp.gmail.com
+	smtpserverport = 465
+	smtpencryption = ssl
+	smtpuser = taimoorzaeem@gmail.com
