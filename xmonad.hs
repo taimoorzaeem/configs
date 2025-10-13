@@ -1,4 +1,11 @@
--- xmonad 0.18.0
+-- xmonad 0.17.2
+
+-- To avoid setting a global GHC environment, run the following in the
+-- ~/.config/xmonad directory after installing xmonad:
+-- $ cabal install --lib --package-env=. xmonad xmonad-contrib
+--
+-- This will setup a local environment so, you can compile with
+-- [~/.config/xmonad]$ xmonad --recompile
 
 import XMonad
 import XMonad.Util.EZConfig
