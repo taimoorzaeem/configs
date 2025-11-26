@@ -20,6 +20,9 @@ set whichwrap+=<,>,h,l  " Goto next line when press l
 
 set noeol binary        " Don't add \n at the end of last line when exiting
 
+set tags=./tags;,tags;  " Looks for tags file upwards through parent
+                        " directories. See: https://en.wikipedia.org/wiki/Ctags
+
 set clipboard=unnamedplus  " Use systen keyboard on y and p, requires vim-gtk3
 
 " Abbreviation could be used for code generation
