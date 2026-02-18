@@ -13,3 +13,7 @@ Contains bash aliases that are automatically imported by the bashrc file.
 ## XMonad
 
 Config file for XMonad tiling window manager.
+
+## My Ubuntu System Settings
+
+Have [this](https://askubuntu.com/questions/4408/what-should-i-do-when-ubuntu-freezes/36717) setting enabled in the ubuntu.
