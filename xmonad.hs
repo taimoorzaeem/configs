@@ -1,4 +1,4 @@
--- xmonad 0.17.2
+-- xmonad 0.18.0
 
 -- To avoid setting a global GHC environment, run the following in the
 -- ~/.config/xmonad directory after installing xmonad:
