@@ -4,6 +4,9 @@
 	signingkey = # signing key for verified commits
 [core]
 	editor = vim
+[diff]
+	colorMoved = dimmed-zebra
+	colorMovedWS = ignore-white-space
 [credential]
 	helper = store
 [commit]
